@@ -99,7 +99,7 @@ class ResponTelegramFormatter {
 header('content-type: application/json; charset=utf-8');
 
 // Ambil token bot Telegram
-$botToken = '7781451587:AAFC46L-4rZD_W2uJ1dE1NB49y2-ZYX7nJM';
+$botToken = '<ID-TOKEN>';
 
 // Dapatkan data webhook dari Telegram
 $update = json_decode(file_get_contents('php://input'), true);
